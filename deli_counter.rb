@@ -26,11 +26,13 @@ end
 
 
   def now_serving(array)
+    new_array = []
     if array.length == 0
       puts "There is nobody waiting to be served!"
     elsif array.length > 0
       name = array[0]
       puts "Currently serving #{name}."
+      new_array = array.shift(0)
     end
   end
 end
