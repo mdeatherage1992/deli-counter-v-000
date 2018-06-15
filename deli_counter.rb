@@ -21,6 +21,7 @@ def now_serving(array)
   elsif array.length > 0
   array.each_with_index do |name,index|
     puts "Currently serving #{name}."
+    array.shift(index)
   end
 end
 end
