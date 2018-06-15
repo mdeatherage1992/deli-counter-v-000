@@ -6,6 +6,7 @@ def line(katz_deli)
     puts "The line is currently:#{katz_deli.length}. #{name}"
   end
 end
+end
 
 def take_a_number(array,person)
   array.push(person)
