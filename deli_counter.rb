@@ -21,7 +21,7 @@ def now_serving(array)
   elsif array.length > 0
   array.each do |name|
     puts "Currently serving #{name}."
-    array.shift(array[0])
   end
+  array.shift(array[0])
 end
 end
