@@ -42,6 +42,5 @@ end
         name = array[0]
         puts "Currently serving #{name}."
       end
-    array = array.shift(0)
   end
 end
