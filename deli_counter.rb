@@ -32,7 +32,6 @@ end
     elsif array.length > 0
       name = array[0]
       puts "Currently serving #{name}."
-      array = array.shift(0)
     end
   end
 end
