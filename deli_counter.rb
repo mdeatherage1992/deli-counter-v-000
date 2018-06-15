@@ -27,10 +27,5 @@ def now_serving(array)
     if array.length == 0
       puts "There is nobody waiting to be served!"
     elsif array.length > 0
-    array.each_with_index do |name,index|
-      puts "Currently serving #{name}."
-    end
-  end
-end
-end
-end
+      name = array[0]
+      "Now serving #{name}"
