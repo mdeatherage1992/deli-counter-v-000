@@ -30,7 +30,7 @@ end
       puts "There is nobody waiting to be served!"
     elsif array.length > 0
       name = array[0]
-      puts "Currently #{name}"
+      puts "Currently serving #{name}."
     end
   end
 end
