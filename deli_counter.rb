@@ -29,7 +29,7 @@ end
     if array.length == 0
       puts "There is nobody waiting to be served!"
     elsif array.length > 0
-      name = array[3]
+      name = array[0]
       puts "Now serving #{name}"
     end
   end
