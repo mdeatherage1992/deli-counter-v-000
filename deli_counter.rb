@@ -29,7 +29,6 @@ def now_serving(array)
     elsif array.length > 0
       name = array[0]
       puts "Now serving #{name}"
-      array.shift(name)
     end
   end
 end
