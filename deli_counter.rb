@@ -18,6 +18,6 @@ end
 def now_serving(array)
   array.each do |name|
     puts "now serving #{name}"
-    array.shift(name)
   end
+    array.shift(name)
 end
