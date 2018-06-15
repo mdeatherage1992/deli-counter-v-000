@@ -16,8 +16,12 @@ def take_a_number(array,person)
 end
 
 def now_serving(array)
+  if array.length == 0
+    puts "There are in no in line"
+  elsif array.length > 0
   array.each do |name|
-    puts "now serving #{name}"
+    puts "Currently serving #{name}."
   end
     array.shift(name)
+end
 end
