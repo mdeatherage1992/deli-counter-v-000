@@ -31,3 +31,4 @@ def now_serving(array)
     end
   end
 end
+end
