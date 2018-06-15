@@ -41,7 +41,7 @@ end
       elsif array.length > 0
         name = array[0]
         puts "Currently serving #{name}."
-        name.shift
+        array.shift
       end
   end
 end
